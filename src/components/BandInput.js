@@ -22,7 +22,7 @@ class BandInput extends Component {
 
   render() {
     return (
-      <div>
+      <div className="band-input">
         <form onSubmit={(event) => this.handleOnSubmit(event)}>
           <input
             type="text"
